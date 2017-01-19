@@ -1,0 +1,331 @@
+fileFormatVersion: 2
+guid: 85aa6ee4424191f499964fe0e3c190ae
+timeCreated: 1447854279
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Explosion-19_00000
+    21300002: Explosion-19_00001
+    21300004: Explosion-19_00002
+    21300006: Explosion-19_00003
+    21300008: Explosion-19_00004
+    21300010: Explosion-19_00005
+    21300012: Explosion-19_00006
+    21300014: Explosion-19_00007
+    21300016: Explosion-19_00008
+    21300018: Explosion-19_00009
+    21300020: Explosion-19_00010
+    21300022: Explosion-19_00011
+    21300024: Explosion-19_00012
+    21300026: Explosion-19_00013
+    21300028: Explosion-19_00014
+    21300030: Explosion-19_00015
+    21300032: Explosion-19_00016
+    21300034: Explosion-19_00017
+    21300036: Explosion-19_00018
+    21300038: Explosion-19_00019
+    21300040: Explosion-19_00020
+    21300042: Explosion-19_00021
+    21300044: Explosion-19_00022
+    21300046: Explosion-19_00023
+    21300048: Explosion-19_00024
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Explosion-19_00000
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 125
+        width: 107
+        height: 175
+      alignment: 9
+      pivot: {x: .598130822, y: .508571446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosion-19_00001
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 12
+        width: 116
+        height: 159
+      alignment: 9
+      pivot: {x: .603448272, y: .484276742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosion-19_00002
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 82
+        width: 137
+        height: 198
+      alignment: 9
+      pivot: {x: .5182482, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosion-19_00003
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 300
+        width: 184
+        height: 234
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosion-19_00004
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 534
+        width: 187
+        height: 244
+      alignment: 9
+      pivot: {x: .497326195, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosion-19_00005
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 778
+        width: 215
+        height: 246
+      alignment: 9
+      pivot: {x: .502325594, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosion-19_00006
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 280
+        width: 232
+        height: 246
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosion-19_00007
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 526
+        width: 244
+        height: 248
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosion-19_00008
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 32
+        width: 251
+        height: 248
+      alignment: 9
+      pivot: {x: .498007983, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosion-19_00009
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 774
+        width: 256
+        height: 250
+      alignment: 9
+      pivot: {x: .5, y: .504000008}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosion-19_00010
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 479
+        width: 260
+        height: 265
+      alignment: 9
+      pivot: {x: .5, y: .524528325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosion-19_00011
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 171
+        width: 265
+        height: 274
+      alignment: 9
+      pivot: {x: .505660355, y: .536496341}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosion-19_00012
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 744
+        width: 273
+        height: 280
+      alignment: 9
+      pivot: {x: .512820542, y: .546428561}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosion-19_00013
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 730
+        width: 285
+        height: 294
+      alignment: 9
+      pivot: {x: .501754403, y: .53061223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosion-19_00014
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 445
+        width: 291
+        height: 285
+      alignment: 9
+      pivot: {x: .518900335, y: .501754403}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosion-19_00015
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 10
+        width: 297
+        height: 300
+      alignment: 9
+      pivot: {x: .531986535, y: .50333333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosion-19_00016
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 303
+        height: 310
+      alignment: 9
+      pivot: {x: .534653485, y: .506451607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosion-19_00017
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 708
+        width: 310
+        height: 316
+      alignment: 9
+      pivot: {x: .535483897, y: .515822768}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosion-19_00018
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 29
+        width: 318
+        height: 321
+      alignment: 9
+      pivot: {x: .540880501, y: .526479721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosion-19_00019
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 350
+        width: 329
+        height: 324
+      alignment: 9
+      pivot: {x: .537993908, y: .533950627}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosion-19_00020
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 5
+        width: 336
+        height: 331
+      alignment: 9
+      pivot: {x: .535714269, y: .531722069}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosion-19_00021
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 336
+        width: 337
+        height: 338
+      alignment: 9
+      pivot: {x: .534124613, y: .523668647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosion-19_00022
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 674
+        width: 345
+        height: 350
+      alignment: 9
+      pivot: {x: .521739125, y: .511428595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosion-19_00023
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 665
+        width: 353
+        height: 359
+      alignment: 9
+      pivot: {x: .509914994, y: .501392782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosion-19_00024
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 310
+        width: 360
+        height: 355
+      alignment: 9
+      pivot: {x: .5, y: .495774657}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
