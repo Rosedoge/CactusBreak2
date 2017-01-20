@@ -56,7 +56,7 @@ public class EnemyManager : MonoBehaviour {
         float y = Random.Range(-1, 1) * 5;
         GameObject temp = Instantiate(toasterEnemyPrefab, new Vector2(x, y), transform.rotation);
         int tempint = Random.Range(1, 5);
-        Debug.Log("Random Int " + tempint);
+        //  Debug.Log("Random Int " + tempint);
         switch (tempint)
         {
             case 1:

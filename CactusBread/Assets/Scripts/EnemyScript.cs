@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class EnemyScript : MonoBehaviour {
 
+    [SerializeField]
+    GameObject bloodSplatter;
 	// Use this for initialization
 	void Start () {
 		
@@ -18,7 +20,11 @@ public class EnemyScript : MonoBehaviour {
     {
         if(col.gameObject.tag == "Bullet")
         {
-            
+            GameObject temp = Instantiate(bloodSplatter, transform.position, transform.rotation);
+            Destroy(temp, 5f);
+            float randomNumberX = Random.Range(0, 360);
+          
+            temp.transform.Rotate(0, 0, randomNumberX);
             Destroy(gameObject);
         }
     }

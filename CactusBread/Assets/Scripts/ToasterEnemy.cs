@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ToasterEnemy : MonoBehaviour {
-    public enum Position { up, down, left, right };
-    public Position localPos;
+    public enum Position { up, down, left, right,none };
+    public Position localPos = Position.up;
 
     int health = 2;
     bool firing = false;
@@ -18,18 +18,18 @@ public class ToasterEnemy : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-        //Debug.Log("local pos " + InLocation);
+        //Debug.Log("local pos " + localPos);
         if (!InLocation)
         {
             if (localPos == Position.up)
             {
-                if (Vector2.Distance(transform.position, new Vector2(0, 4)) <= 1)
+                if (Vector2.Distance(transform.position, new Vector2(-1, 4)) <= 1)
                 {
                     InLocation = true; //yay
                 }
                 else
                 {
-                    transform.position = Vector3.MoveTowards(transform.position, new Vector2(0, 4), 0.05f);
+                    transform.position = Vector3.MoveTowards(transform.position, new Vector2(-1, 4), 0.02f);
                 }
             }
             if (localPos == Position.down)
@@ -42,29 +42,29 @@ public class ToasterEnemy : MonoBehaviour {
                 else
                 {
                     //Debug.Log("Move To: " + Vector3.MoveTowards(transform.position, new Vector2(0, -4f), 0.05f));
-                    transform.position = Vector3.MoveTowards(transform.position, new Vector2(0, -4f), 0.05f);
+                    transform.position = Vector3.MoveTowards(transform.position, new Vector2(0, -4f), 0.02f);
                 }
             }
             if (localPos == Position.right)
             {
-                if (Vector2.Distance(transform.position, new Vector2(6,0)) <= 1)
+                if (Vector2.Distance(transform.position, new Vector2(6, 0)) <= 1)
                 {
                     InLocation = true; //yay
                 }
                 else
                 {
-                    transform.position = Vector3.MoveTowards(transform.position, new Vector2(6,0), 0.05f);
+                    transform.position = Vector3.MoveTowards(transform.position, new Vector2(6, 0), 0.02f);
                 }
             }
             if (localPos == Position.left)
             {
-                if (Vector2.Distance(transform.position, new Vector2(-6,0)) <= 1)
+                if (Vector2.Distance(transform.position, new Vector2(-6, 0)) <= 1)
                 {
                     InLocation = true; //yay
                 }
                 else
                 {
-                    transform.position = Vector3.MoveTowards(transform.position, new Vector2(-6,0), 0.05f);
+                    transform.position = Vector3.MoveTowards(transform.position, new Vector2(-6, 0), 0.02f);
                 }
             }
 
@@ -95,7 +95,7 @@ public class ToasterEnemy : MonoBehaviour {
         {
             float randomNumberX = Random.Range(-strayFactor, strayFactor);
             GameObject bullet = Instantiate(bulletPrefab, transform.position, transform.rotation);
-            bullet.transform.Rotate(0, 0, randomNumberX);
+           // bullet.transform.Rotate(0, 0, randomNumberX);
             bullet.GetComponent<Rigidbody2D>().AddForce(-bullet.transform.up * 100);
         }
         if (localPos == Position.down)

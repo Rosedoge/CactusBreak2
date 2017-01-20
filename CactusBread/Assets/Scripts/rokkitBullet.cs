@@ -22,7 +22,7 @@ public class rokkitBullet : MonoBehaviour {
             Destroy(gameObject, 1f);
             GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
             GetComponent<CircleCollider2D>().enabled = true;
-            EZCameraShake.CameraShaker.Instance.ShakeOnce(1f, 1f, 0.1f, 0.8f);
+            EZCameraShake.CameraShaker.Instance.ShakeOnce(1f, 5f, 0.1f, 0.8f);
             GameObject temp = Instantiate(explosionPrefab, this.transform.position,transform.rotation);
             Destroy(temp, 1f);
         }
